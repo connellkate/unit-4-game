@@ -24,20 +24,12 @@ $(document).ready(function () {
   var randomNumber3 = Math.floor(Math.random() * 11 + 1);
   var randomNumber4 = Math.floor(Math.random() * 11 + 1);
   var computerNumber = Math.floor(Math.random() * 101 + 19);
-
-  console.log(randomNumber);
-  console.log(randomNumber2);
-  console.log(randomNumber3);
-  console.log(randomNumber4);
-  console.log(computerNumber);
-
-
-
-
   var wins = 0;
   var losses = 0;
   var totalscore = 0;
 
+
+  //writes it to the html//
   $("#wins").text("Wins: " + wins);
   $("#losses").text("Losses: " + losses);
   $(".total-score").text(totalscore)
@@ -86,7 +78,7 @@ $(document).ready(function () {
   });
 
 
-
+//Controls Wins/losses
   function winAndLose() {
 
     if (totalscore === computerNumber) {
@@ -104,8 +96,10 @@ $(document).ready(function () {
 
 
 
-
+// Controls reseting the game
 function reset (){
+
+
   computerNumber = Math.floor(Math.random() * 101 + 19);
   randomNumber = Math.floor(Math.random() * 11 + 1);
   randomNumber2 = Math.floor(Math.random() * 11 + 1);
@@ -114,11 +108,7 @@ function reset (){
 
   totalscore = 0;
 
-  console.log(randomNumber);
-  console.log(randomNumber2);
-  console.log(randomNumber3);
-  console.log(randomNumber4);
-
+//writes to the html
   $('.total-score').text(totalscore);
   $('#wins').text('wins: ' + wins);
   $('#losses').text('losses: ' + losses);
