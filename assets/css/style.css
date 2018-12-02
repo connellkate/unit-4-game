@@ -1,0 +1,69 @@
+body{
+background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/260692/580/667/m1/fpnw/wm0/blue_hexgrid_pattern-.jpg?1417645204&s=629cdf0324b790b0e335fe22f12db2c4);
+
+}
+
+.header {
+color:white;
+background-color: orange;
+width: 230px;
+margin: 10px;
+font-size: 30px;
+}
+
+.rules{
+color: green;
+background-color: blanchedalmond;
+height: 400px;
+width: 400px;
+margin: 10px;
+font: bold;
+
+}
+
+.random-number{
+background-color: green;
+height: 100px;
+width: 200px;
+float: left;
+margin: 10px;
+font-size: 60px;
+text-align: center;
+}
+
+.winlose{
+background-color: aqua;
+width: 100px;
+height: 100px;
+float:left;
+margin: 10px;
+text-align: center;
+}
+
+.crystals{
+    float: left;
+    clear: left;
+    margin: 10px;
+}
+   
+
+.total-score-is{
+color: antiquewhite;
+background-color:teal;
+width: 200px;
+height: 50px;
+margin: 10px;
+float: left;
+clear: left;
+}
+
+.total-score{
+    height: 100px;
+    width: 200px;
+    background-color: teal;
+    margin: 10px;
+    float: left;
+    clear: left;
+    font-size: 60px;
+    text-align: center;
+}
